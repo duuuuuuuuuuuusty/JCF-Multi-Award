@@ -6,7 +6,5 @@ Install to webpage maker, else you'll see it anywhere and everywhere.
 
 ## Usage
 1. Login via the interface
-2. Usernames field accepts multiple usernames separated by a single newline. Usernames should appear as
-  -Username1
-  -Username2
+2. Usernames field accepts multiple usernames separated by a single newline
 3. Image input field accepts direct URL to image
