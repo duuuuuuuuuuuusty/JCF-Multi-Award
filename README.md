@@ -1,6 +1,8 @@
 # JQuery Multi-Award Plugin
 For JC Ink services
 
+Version 1.0
+
 ## Install
 Install to webpage maker, else you'll see it anywhere and everywhere.
 
