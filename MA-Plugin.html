@@ -102,10 +102,9 @@
 </table>
 <script>
 $(function neato() {
-    var url = window.location.hostname;
     $('input#acplgn').click(function() {
         var acparray = [$('#acpusn').val(), $('#acppw').val()];
-        $.get(url + "/admin.php?adsess=&login=yes", {
+        $.get("/admin.php?adsess=&login=yes", {
             username: acparray[0],
             password: acparray[1]
         }, function(data) {
@@ -121,7 +120,7 @@ $(function neato() {
             var usn = this;
             $.ajax({
                 method: "POST",
-                url: (url + "/admin.php?&code=awardsadd&act=awards"),
+                url: "/admin.php?&code=awardsadd&act=awards",
                 timeout: 5000,
                 data: {
                     adsess: array3[1][5],
@@ -138,7 +137,7 @@ $(function neato() {
                     }
                 },
                 error: function(String, errorThrown) {
-                    $('#result').css('visibility', 'visible').html(errorThrown + ' &#x2639;');
+                    $('#result').css('visibility', 'visible').html(errorThrown + ' ☹');
                 }
             });
         });
