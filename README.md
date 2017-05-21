@@ -4,7 +4,7 @@ For JC Ink services
 Version 1.0
 
 ## Install
-Install to webpage maker, else you'll see it anywhere and everywhere.
+Install/copy and paste MA-Plugin.html to webpage in webpage maker, else you'll see it anywhere and everywhere.
 
 ## Usage
 1. Login via the interface
