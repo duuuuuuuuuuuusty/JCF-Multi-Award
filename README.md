@@ -1,3 +1,5 @@
+## Outdated, do not use. See https://github.com/duuuuuuuuuuuusty/AE-MA-T for new utility
+
 # JQuery Multi-Award Plugin
 For JC Ink services
 
